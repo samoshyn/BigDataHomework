@@ -1,5 +1,5 @@
 use [master]
-CREATE LOGIN samoshyn WITH PASSWORD='Cfvjiby1'
+CREATE LOGIN samoshyn WITH PASSWORD='ДАННЫЕ УДАЛЕНЫ'
 CREATE USER samoshyn FOR LOGIN samoshyn
 
 use [sqldwschool]
