@@ -1,4 +1,4 @@
---Ñמגועû ןמ גûבמנף ץור-סעמכבצא: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute
+--https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute
 
 CREATE TABLE samoshyn_schema.fact_tripdata  
 (
@@ -23,7 +23,7 @@ CREATE TABLE samoshyn_schema.fact_tripdata
 ) 
 WITH
 (
-    DISTRIBUTION = HASH([trip_distance]),
+    DISTRIBUTION = HASH([tpep_pickup_datetime]),
     CLUSTERED COLUMNSTORE INDEX
 )
 GO
