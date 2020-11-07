@@ -1,5 +1,5 @@
 CREATE DATABASE SCOPED CREDENTIAL AzureStorageKey
-WITH IDENTITY = 'ADLS_Any_String', Secret = 'jgcEshTHpqL2emPYheVWtCOvAxPmzgimyBXTdfaJ7GN3vN+a8vf/MmVhqmA0CLOcaaNLI4gx79gm/RCiWUfa4w==';
+WITH IDENTITY = 'ADLS_Any_String', Secret = 'ДАННЫЕ УДАЛЕНЫ';
 GO
 
 CREATE EXTERNAL DATA SOURCE samoshyn_blob 
